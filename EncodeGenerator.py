@@ -60,7 +60,7 @@ print('Encoding started.....')
 encodeListKnown = findEncodings(imgList)
 encodeListKnownWithIds = [encodeListKnown, studentIds]
 # print(encodeListKnown)
-print('Encoding start.....')
+print('Encoding completed!.....')
 
 file = open('EncodeFile.p', 'wb')
 pickle.dump(encodeListKnownWithIds, file)
